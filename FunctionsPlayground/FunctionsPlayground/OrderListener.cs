@@ -21,6 +21,9 @@ namespace FunctionsPlayground
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
 
+            // To test out code deployment from github
+            return new OkObjectResult("Hello!");
+
             string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
             FoodOrderRequest foodOrderRequest;
             try
