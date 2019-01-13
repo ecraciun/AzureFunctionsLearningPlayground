@@ -38,7 +38,7 @@
     },
     "hostingPlanName": {
       "type": "string",
-      "defaultValue": "FunctionsPlaygroundASP",
+      "defaultValue": "FunctionsPlaygroundASP2",
       "metadata": {
         "description": "Consumption app service plan name."
       }
