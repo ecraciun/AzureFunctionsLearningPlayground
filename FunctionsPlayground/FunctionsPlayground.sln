@@ -13,6 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".git", ".git", "{899B2948-9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Automation", "Automation", "{5BE6B3CE-29A0-468D-8DD3-AD950B7E127D}"
 	ProjectSection(SolutionItems) = preProject
+		..\.deployment = ..\.deployment
 		..\azuredeploy.json = ..\azuredeploy.json
 		..\provision.ps1 = ..\provision.ps1
 	EndProjectSection
