@@ -129,6 +129,10 @@
             {
               "name": "APPINSIGHTS_INSTRUMENTATIONKEY",
               "value": "[reference(resourceId('microsoft.insights/components/', parameters('applicationInsightsName')), '2015-05-01').InstrumentationKey]"
+            },
+            {
+              "name": "FUNCTION_APP_EDIT_MODE",
+              "value": "readwrite"
             }
           ]
         }
